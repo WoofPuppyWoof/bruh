@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
   background(255, 213, 128);
-  translate(width/2 - offset, height/2);
+  translate(width/2 - offset, height/2 + offset / 5);
   textSize(offset);
   text('Bruh', 0, 0);
 }
